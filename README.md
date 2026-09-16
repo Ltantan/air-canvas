@@ -22,4 +22,6 @@ Enter the first as the privacy policy URL and the second as the support URL in A
 
 ## License
 
-The license is intentionally not selected yet. Choose one before making the source repository public.
+Copyright (c) 2026 Ltantan. All rights reserved.
+
+The source code is published for transparency and reference. No license is granted to copy, modify, redistribute, or publish this code or derived apps. The app name, icon, and App Store listing are not covered by any license. Contact `sazabys044@gmail.com` if you would like to use any part of this project.
