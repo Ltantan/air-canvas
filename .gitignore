@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Signing and local secrets
+*.p12
+*.mobileprovision
+*.cer
+.env
+credentials.json
+token.json
+
+# Local artwork and exports
+data/
+*.mp4
+*.mov
+*.usdz

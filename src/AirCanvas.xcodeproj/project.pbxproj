@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000000000000000000000B /* AirCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* AirCanvas.swift */; };
+		C00000000000000000000001 = {isa = PBXBuildFile; fileRef = B00000000000000000000001; };
+		C00000000000000000000002 = {isa = PBXBuildFile; fileRef = B00000000000000000000002; };
+		C00000000000000000000003 = {isa = PBXBuildFile; fileRef = B00000000000000000000003; };
+		C00000000000000000000004 = {isa = PBXBuildFile; fileRef = B00000000000000000000004; };
+		C00000000000000000000005 = {isa = PBXBuildFile; fileRef = B00000000000000000000005; };
+		C00000000000000000000006 = {isa = PBXBuildFile; fileRef = B00000000000000000000006; };
+		C00000000000000000000007 = {isa = PBXBuildFile; fileRef = B00000000000000000000007; };
+		C00000000000000000000008 = {isa = PBXBuildFile; fileRef = B00000000000000000000008; };
+		C00000000000000000000009 = {isa = PBXBuildFile; fileRef = B00000000000000000000009; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000006 /* AirCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirCanvas.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* AirCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkScene.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkPreview.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puppet.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayVideo.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLibrary.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000006 /* AirCanvas.swift */,
+				B00000000000000000000008,
+				B00000000000000000000009,
+				B00000000000000000000004,
+				B00000000000000000000007,
+				B00000000000000000000006,
+				B00000000000000000000005,
+				B00000000000000000000003,
+				B00000000000000000000002,
+				B00000000000000000000001,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000007 /* AirCanvas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* AirCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000012 /* Build configuration list for PBXNativeTarget "AirCanvas" */;
+			buildPhases = (
+				A00000000000000000000008 /* Sources */,
+				A00000000000000000000009 /* Frameworks */,
+				A0000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirCanvas;
+			productName = AirCanvas;
+			productReference = A00000000000000000000007 /* AirCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "AirCanvas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* AirCanvas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00000000000000000000008,
+				C00000000000000000000009,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000000B /* AirCanvas.swift in Sources */,
+				C00000000000000000000004,
+				C00000000000000000000007,
+				C00000000000000000000006,
+				C00000000000000000000005,
+				C00000000000000000000003,
+				C00000000000000000000002,
+				C00000000000000000000001,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = "Air Canvas";
+				INFOPLIST_KEY_NSCameraUsageDescription = "空間に絵を描くために、背面カメラで端末の位置を追跡します。カメラ映像は保存しません。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "作品から生成した動画を写真アプリに保存します。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.aircanvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = "Air Canvas";
+				INFOPLIST_KEY_NSCameraUsageDescription = "空間に絵を描くために、背面カメラで端末の位置を追跡します。カメラ映像は保存しません。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "作品から生成した動画を写真アプリに保存します。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.aircanvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "AirCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000010 /* Debug */,
+				A00000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000012 /* Build configuration list for PBXNativeTarget "AirCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000013 /* Debug */,
+				A00000000000000000000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
