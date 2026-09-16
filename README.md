@@ -15,8 +15,8 @@ Open `src/AirCanvas.xcodeproj` in Xcode, select your Apple Developer Team, conne
 
 When this repository is published as `Ltantan/air-canvas`, enable GitHub Pages with the `/docs` folder as the source. The URLs will be:
 
-- `https://ltantan.github.io/air-canvas/docs/privacy-policy`
-- `https://ltantan.github.io/air-canvas/docs/support`
+- `https://ltantan.github.io/air-canvas/privacy-policy.html`
+- `https://ltantan.github.io/air-canvas/support.html`
 
 Enter the first as the privacy policy URL and the second as the support URL in App Store Connect. The support contact is `sazabys044@gmail.com`.
 
