@@ -3,18 +3,37 @@ AGENTS.md
 CLAUDE.md
 agent.md
 claude.md
+.agents/
+.claude/
+.codex/
+
+# Local publishing notes and asset preparation
+/PUBLISH.md
+/docs/make_icon.swift
+/docs/AppIcon-1024.png
+
+# macOS
+.DS_Store
 
 # Xcode
 DerivedData/
 build/
 *.xcuserstate
 xcuserdata/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.dSYM.zip
 
 # Signing and local secrets
 *.p12
 *.mobileprovision
 *.cer
+*.p8
+*.key
+*.pem
 .env
+.env.*
 credentials.json
 token.json
 
